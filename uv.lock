@@ -1024,6 +1024,7 @@ dependencies = [
     { name = "langchain", extra = ["mcp"] },
     { name = "langchain-groq" },
     { name = "langchain-openai" },
+    { name = "rich" },
     { name = "uuid" },
 ]
 
@@ -1035,6 +1036,7 @@ requires-dist = [
     { name = "langchain", extras = ["mcp"], specifier = ">=1.5.2" },
     { name = "langchain-groq", specifier = ">=1.2.1" },
     { name = "langchain-openai", specifier = ">=1.8.5" },
+    { name = "rich", specifier = ">=15.0.0" },
     { name = "uuid", specifier = ">=1.30" },
 ]
 
