@@ -102,13 +102,4 @@ def get_all_tasks() -> list[dict]:
 
 if __name__ == "__main__":
     print(get_all_tasks())
-    # update_task_status(
-    #     task_id= 1,
-    #     status= "in_progress"
-    # )
-    # save_task({
-    #     "title" : "task1",
-    #     "description" : "the first task",
-    #     "priority" : "low",
-    #     "status" : "todo"
-    # })
+    
